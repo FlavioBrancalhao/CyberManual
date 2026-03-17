@@ -709,15 +709,15 @@ A permissão final = combinação de SMB + NTFS.
 
 Em outro computador:
 
-\\IP_DO_COMPUTADOR\Compartilhamento
+||IP_DO_COMPUTADOR|Compartilhamento
 
 Exemplo:
 
-\\192.168.0.10\Compartilhamento
+||92.168.0.10|Compartilhamento
 
 Ou:
 
-\\NOME-PC\Compartilhamento
+||NOME-PC|Compartilhamento
 🔎 6️⃣ Ver compartilhamentos existentes
 
 No Prompt de comando:
@@ -727,7 +727,7 @@ net share
 Mostra todas as pastas compartilhadas.
 
 ➕ 7️⃣ Criar compartilhamento via CMD (admin)
-net share Compartilhamento=C:\Compartilhamento /grant:everyone,full
+net share Compartilhamento=C:|Compartilhamento /grant:everyone,full
 
 Isso cria um compartilhamento SMB direto pelo terminal.
 
@@ -780,7 +780,7 @@ Comunicação com Active Directory
 
 Exemplo: 
 
-\\servidor\pasta_compartilhada 
+||servidor|pasta_compartilhada 
 
  
 
@@ -945,7 +945,7 @@ Comunicação com Active Directory
 
 Exemplo: 
 
-\\servidor\pasta_compartilhada 
+||servidor|pasta_compartilhada 
 
  
 
