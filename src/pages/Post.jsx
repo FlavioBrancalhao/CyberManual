@@ -22,13 +22,13 @@ function Post() {
 
                 
                 <h2>Contexto:</h2>
-                <pre>{article.content}</pre>
+                <textarea class="editor">{article.content}</textarea>
                 <h2>Comandos CMD / Powershell</h2>
                 <p>{article.comandosPowershell}</p>
                 <h2>Comandos Windows + R</h2>
                 <p>{article.comandosWR}</p>
                 <h2>Como fazer(caso tenha processo para realizar):</h2>
-                <p>{article.how}</p>
+                <textarea class="editor">{article.how}</textarea>
 
             </div>
 
